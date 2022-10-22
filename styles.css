@@ -151,4 +151,27 @@ img {
 button, .call {
     background-color: #3882F6;
 }
+.bot {
+    background-color: #E5E7EB;
+}
+.call {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.text {
+    margin-left: 80px;
+    color: #F9FAF8;
+    margin-right: 80px;
+    
+}
+.text .title {
+    font-size: 25px;
+    font-weight: 800;
+}.call .sign-up {
+    margin-right: 80px;
+    border: 2px solid white;
+}
 
