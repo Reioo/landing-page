@@ -29,7 +29,7 @@ body {
 .header .link {
     display: flex;
     flex-wrap: nowrap;
-    width: 260px;
+    width: 270px;
     justify-content: flex-end;
 }
 .header .link a:visited, .header .link a {
@@ -88,6 +88,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     border-radius: 7px;
+    border: #F9FAF8;
 }
 .main {
     background-color: #E5E7EB;
@@ -117,6 +118,7 @@ body {
 }
 .mid {
     background-color: #c3bfbf;
+    padding: 150px 0 150px;
 }
 .quote {
     font-size: 36px;
@@ -124,14 +126,13 @@ body {
     font-style: italic;
     font-weight: lighter;
     font-weight: 100;
-    margin: 150px 300px 0;
+    margin: 0px 300px 0;
 }
 .thor {
     text-align: end;
     margin-right: 300px;
     font-size: 25px;
     font-weight: 900;
-    margin-bottom: 150px;
 }
 
 .image {
@@ -153,11 +154,12 @@ button, .call {
 }
 .bot {
     background-color: #E5E7EB;
+    padding: 40px 0 40px;
 }
 .call {
     display: flex;
     justify-content: space-between;
-    margin: 100px 200px 100px;
+    margin: 0 200px 0;
     padding: 40px;
     border-radius: 10px;
 }
