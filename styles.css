@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* color: antiquewhite; */
 }
 * {
@@ -47,6 +48,7 @@ body {
     width: 100%;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 .hero-box .title {
     font-size: 48px;
@@ -89,12 +91,26 @@ body {
 }
 .main {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    
+}
+.pic-holder {
+    display: flex;
+}
+.pic-holder .block {
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px;
+    font-size: 18px;
+    text-align: center;
 }
 .mid {
     background-color: #E5E7EB;
@@ -103,13 +119,18 @@ body {
     font-size: 36px;
     color: #1F2937;
 }
+
 .image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+.image img {
+    border-radius: 15px;
 }
 img {
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
