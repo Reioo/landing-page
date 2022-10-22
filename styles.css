@@ -4,7 +4,7 @@ body {
     /* color: antiquewhite; */
 }
 * {
-    border: 1px solid red;
+    /* border: 1px solid transparent; */
     box-sizing: border-box;
 }
 .container {
@@ -174,4 +174,13 @@ button, .call {
     margin-right: 80px;
     border: 2px solid white;
 }
+.footer {
+
+    color: #F9FAF8;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 
